@@ -15,7 +15,7 @@ Although the project could not reach a working prototype stage due to tensorflow
 > 1. Create a virtual enviornment using ```Python3 -m venv .venv```
 > 2. activate the said enviornment
 > 3. run ```pip install -r req.txt ``` to install all necessary packages
-> 4. run collect_images.py in the said enviornment to collect images
+> 4. run ```collect_images.py``` in the said enviornment to collect images
 > 5. run cells in ```main.ipynb```. (not recommended)
 
 >NOTE:- Although I use standard ```pip``` and classic python distribution. You are more than welcome to try  conda based enviornments
