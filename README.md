@@ -1,6 +1,6 @@
 # Sign Interpreter using Tensorflow and OpenCV
 
-this project was assigned as a task for Doxpro Robotics Co.'s internship interview.
+This project was assigned as a task for Doxpro Robotics Co.'s internship interview.
 
 Although the project could not reach a working prototype stage due to tensorflow not working I am submitting whatever I could make in the time allotted
 
@@ -9,9 +9,12 @@ Although the project could not reach a working prototype stage due to tensorflow
 > 2. The collected  images were labelled using labelImg python package. The .xml files with necessary metadata could be found in ``` Tensorflo/workspace/images/collected_images/``` [&#x2611;]
 > 3. A pre-trained tensorflow object detection model was to be used to train on our own dataset using Transfer Learning technique. related files could be found in ```Tensorflow/scripts/``` and the pretrained model could be found in ```Tensorflo/workspace/pre-trained-model``` [&#x2612;]
 > 4. Then the trained model would have been tested in real time using OpenCV and [&#x2612;]
-> 5. The rest of my attempts to get tensorlow to work could be found in ```main.ipynb```
+> 5. The rest of my attempts to get Tensorflow to work could be found in ```main.ipynb```
 
 ## To Test.
 > 1. Create a virtual enviornment using ```Python3 -m venv .venv```
 > 2. activate the said enviornment
 > 3. run ```pip install -r req.txt ``` to install all necessary packages
+> 4. run collect_images.py in the said enviornment to collect images
+> 5. run cells in ```main.ipynb```. (not recommended)
+>NOTE:- Although I use standard ```pip``` and classic python distribution. You are more than welcome to try a conda based enviornments
